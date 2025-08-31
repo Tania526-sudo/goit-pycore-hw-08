@@ -1,4 +1,3 @@
-# models.py
 from collections import UserDict
 from datetime import datetime
 
