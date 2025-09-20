@@ -13,6 +13,9 @@ dependencies = [
 [tool.poetry]
 packages = [{include = "goit_pycore_hw_08", from = "src"}]
 
+[tool.setuptools.packages.find]
+where = ["src"]
+
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
